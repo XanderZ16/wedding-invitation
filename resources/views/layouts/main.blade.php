@@ -7,8 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     {{-- Vite tailwindcss --}}
-    @vite('resources/css/app.css')
-    @vite('resources/scss/snow.scss')
+    @vite(['resources/css/app.css', 'resources/scss/snow.scss'])
 
     {{-- AOS CDN --}}
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
